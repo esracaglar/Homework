@@ -1,5 +1,5 @@
 
-# Proje1 #
+# Project1 #
  1. Download Project
  2. Open command prompt as Administrator run environmentSetup.bat (If you don’t want to run environmentSetup.bat 
 please follow:https://codecept.io/quickstart/#quickstart)
@@ -28,7 +28,7 @@ please follow:https://codecept.io/quickstart/#quickstart)
 
 ================================================================================
 
-# Proje2 #
+# Project2 #
 
 #### Installation ####
 
