@@ -9,13 +9,13 @@ please follow:https://codecept.io/quickstart/#quickstart)
         3. Jdk8
         4. Browsers Chrome, Opera, Internet Explorer, Mozilla Firefox
 3. After environment setup is finished, prepare selenium server 
-     1. ```js selenium-standalone start ```
+     1. ``` selenium-standalone start ```
 4. Open new command prompt
      1. Run 
         1. Execute tests:
-             1. To run all test : ```js  codeceptjs run --steps     ```
-             2. To run specific test: ```js  codeceptjs run homePage_test.js     ```
-             3. To run all suites for all browsers: ```js  codeceptjs run-multiple --all  ```
+             1. To run all test : ``` codeceptjs run --steps     ```
+             2. To run specific test: ``` codeceptjs run homePage_test.js     ```
+             3. To run all suites for all browsers: ``` codeceptjs run-multiple --all  ```
              4. Selenium Grid - Setup
                   1. Open command prompt 
                        1. ``` java -jar selenium-server-standalone-3.3.1.jar     ```
