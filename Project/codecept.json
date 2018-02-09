@@ -1,0 +1,41 @@
+{
+  "output": "./output",
+  "helpers": {
+    "WebDriverIO": {
+      "url": "http://localhost",
+	  "seleniumHost": "http://localhost:4444/wd/hub",
+      "browser": "chrome",
+	  "windowSize": "1600x1000",  
+	   "timeouts": {
+         "script": 60000,
+         "page load": 1000000
+       }
+    }
+  },
+  "include": {
+    "I": "./steps_file.js",
+    "basePage": "./pages/base.js"
+  },
+  
+  "multiple": {
+  "basic": {
+    "browsers": ["chrome", "firefox"]
+  }
+ },
+  
+  
+  "mocha": {},
+  "bootstrap": false,
+  "teardown": null,
+  "hooks": [],
+  "tests": "./*_test.js",
+  "timeout": 10000,
+  "name": "JavaScriptProject"
+  
+  
+  
+  
+  
+  
+
+}

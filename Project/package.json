@@ -1,0 +1,16 @@
+{
+  "name": "JavaScriptProject",
+  "version": "0.0.1",
+  "author": "Esra Caglar",
+  "dependencies": {
+    "nightmare": "^2.10.0"
+  },
+  "devDependencies": {
+    "frisby": "^2.0.5",
+    "jes": "^0.6.1",
+    "jest": "^22.2.1"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
