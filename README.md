@@ -18,14 +18,14 @@ please follow:https://codecept.io/quickstart/#quickstart)
              3. To run all suites for all browsers: ```js  codeceptjs run-multiple --all  ```
              4. Selenium Grid - Setup
                   1. Open command prompt 
-                       a) ``` java -jar selenium-server-standalone-3.3.1.jar     ```
+                       1. ``` java -jar selenium-server-standalone-3.3.1.jar     ```
                   2. Register a node
-                       a) ``` java -jar selenium-server-standalone-3.3.1.jar  -role node 
+                       1. ``` java -jar selenium-server-standalone-3.3.1.jar  -role node 
                        -hub http://localhost:4444/grid/register   ```
                   3. Register the node including the path for the executable as shown below.(drivers exist in project)
                         1. ``` Java  -Dwebdriver.chrome.driver=..\…\chromedriver.exe -jar selenium-server-standalone-3.3.1.jar 
-                       ```    -role node -hub http://localhost:4444/grid/register ``` 
-                        ```   -port 7777 -browser browserName=chrome,maxInstances=3 ``` 
+                           -role node -hub http://localhost:4444/grid/register  
+                           -port 7777 -browser browserName=chrome,maxInstances=3 ``` 
 
 ===========================================================
 
