@@ -20,7 +20,9 @@ please follow:https://codecept.io/quickstart/#quickstart)
                   1. Open command prompt 
                        1. ``` java -jar selenium-server-standalone-3.3.1.jar     ```
                   2. Register a node
-                       1. ~~~ java -jar selenium-server-standalone-3.3.1.jar  -role node -hub http://localhost:4444/grid/register   ~~~
+                       1. ~~~ 
+                       java -jar selenium-server-standalone-3.3.1.jar  -role node -hub http://localhost:4444/grid/register
+                       ~~~
                   3. Register the node including the path for the executable as shown below.(drivers exist in project)
                         1. ~~~ java  -Dwebdriver.chrome.driver=..\…\chromedriver.exe -jar selenium-server-standalone-3.3.1.jar -role node -hub http://localhost:4444/grid/register -port 7777 -browser browserName=chrome,maxInstances=3 ~~~ 
 
