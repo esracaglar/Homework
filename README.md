@@ -2,7 +2,7 @@
 # Proje1 #
 ~~~
 1. Download Project
-2. Open command prompt run environmentSetup.bat (If you don’t want to run environmentSetup.bat yplease follow:https://codecept.io/quickstart/#quickstart)
+2. Open command prompt run environmentSetup.bat (If you don’t want to run environmentSetup.bat please follow:https://codecept.io/quickstart/#quickstart)
      a) Environment inludes:
         i. Chocolatey and NodeJS
         ii. CodeceptJS, Webdriverio and Selenium-standalone
