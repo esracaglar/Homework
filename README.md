@@ -1,6 +1,6 @@
 
 # Proje1 #
-~~~
+Markup :
 1. Download Project
 2. Open command prompt run environmentSetup.bat (If you don’t want to run environmentSetup.bat please follow:https://codecept.io/quickstart/#quickstart)
      a) Environment inludes:
@@ -23,7 +23,7 @@
                        a)``` java -jar selenium-server-standalone-3.3.1.jar  -role node -hub http://localhost:4444/grid/register   ```
                   3.Register the node including the path for the executable as shown below.(drivers exist in project)
                         a)``` Java  -Dwebdriver.chrome.driver=..\…\chromedriver.exe -jar selenium-server-standalone-3.3.1.jar -role node -hub                         http://localhost:4444/grid/register -port 7777 -browser browserName=chrome,maxInstances=3
-~~~
+
 ===========================================================
 
 # Proje2 #
