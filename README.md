@@ -44,7 +44,8 @@ If you don't have Jest installed in your project yet, install it:
 
 #### Create your tests ####
 By default, Jest looks for a folder named __tests__. If it does not exist in your project yet, go ahead and create it:
-```mkdir -p __tests__/api ```
+
+``` mkdir -p __tests__/api ```
 ``` touch __tests__/api/api_spec.js ```
 
 #### Run tests ####
