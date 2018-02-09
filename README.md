@@ -1,5 +1,5 @@
 
-#Proje1#
+# Proje1 #
 
 1. Download Project
 2. Open command prompt run environmentSetup.bat (If you don’t want to run environmentSetup.bat yplease follow:https://codecept.io/quickstart/#quickstart)
@@ -26,22 +26,27 @@
 
 ====================================================================================================================================
 
-#Proje2#
+# Proje2 #
 
 Getting Started with Frisby.js
-Installation
-To get started with Frisby.js, add it to your project as a dev dependency:
-npm install frisby --save-dev
-Writing and Running Tests
-Install Jest
-If you don't have Jest installed in your project yet, install it:
-npm install --save-dev jest
-Create your tests
-By default, Jest looks for a folder named __tests__. If it does not exist in your project yet, go ahead and create it:
-mkdir -p __tests__/api
-touch __tests__/api/api_spec.js
 
-Run tests
+#### Installation ####
+
+To get started with Frisby.js, add it to your project as a dev dependency:
+
+```npm install frisby --save-dev```
+
+#### Writing and Running Tests ####
+If you don't have Jest installed in your project yet, install it:
+
+```npm install --save-dev jest```
+
+#### Create your tests ####
+By default, Jest looks for a folder named __tests__. If it does not exist in your project yet, go ahead and create it:
+```mkdir -p __tests__/api
+touch __tests__/api/api_spec.js ```
+
+#### Run tests ####
 
 Jest or nmp test api_spec.js
 
