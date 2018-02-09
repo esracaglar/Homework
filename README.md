@@ -3,16 +3,16 @@
  1. Download Project
  2. Open command prompt run environmentSetup.bat (If you don’t want to run environmentSetup.bat 
 please follow:https://codecept.io/quickstart/#quickstart)
-     a) Environment inludes:
-        i. Chocolatey and NodeJS
-        ii. CodeceptJS, Webdriverio and Selenium-standalone
-        iii. Jdk8
-        iv. Browsers Chrome, Opera, Internet Explorer, Mozilla Firefox
+    1. Environment inludes:
+        1. Chocolatey and NodeJS
+        2. CodeceptJS, Webdriverio and Selenium-standalone
+        3. Jdk8
+        4. Browsers Chrome, Opera, Internet Explorer, Mozilla Firefox
 3. After environment setup is finished, prepare selenium server 
-     a) ```js selenium-standalone start ```
+     1. ```js selenium-standalone start ```
 4. Open new command prompt
-     a) Run 
-         i. Execute tests:
+     1. Run 
+        1. Execute tests:
              1. To run all test : ```js  codeceptjs run --steps     ```
              2. To run specific test: ```js  codeceptjs run homePage_test.js     ```
              3. To run all suites for all browsers: ```js  codeceptjs run-multiple --all  ```
