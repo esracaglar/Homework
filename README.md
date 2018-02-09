@@ -1,8 +1,9 @@
 
 # Proje1 #
-
-Markup : 1. Download Project
-2. Open command prompt run environmentSetup.bat (If you don’t want to run environmentSetup.bat please follow:https://codecept.io/quickstart/#quickstart)
+~~~
+1. Download Project
+2. Open command prompt run environmentSetup.bat (If you don’t want to run environmentSetup.bat 
+please follow:https://codecept.io/quickstart/#quickstart)
      a) Environment inludes:
         i. Chocolatey and NodeJS
         ii. CodeceptJS, Webdriverio and Selenium-standalone
@@ -20,10 +21,13 @@ Markup : 1. Download Project
                   1.Open command prompt 
                        a)``` java -jar selenium-server-standalone-3.3.1.jar     ```
                   2.Register a node
-                       a)``` java -jar selenium-server-standalone-3.3.1.jar  -role node -hub http://localhost:4444/grid/register   ```
+                       a)``` java -jar selenium-server-standalone-3.3.1.jar  -role node 
+                       -hub http://localhost:4444/grid/register   ```
                   3.Register the node including the path for the executable as shown below.(drivers exist in project)
-                        a)``` Java  -Dwebdriver.chrome.driver=..\…\chromedriver.exe -jar selenium-server-standalone-3.3.1.jar -role node -hub                         http://localhost:4444/grid/register -port 7777 -browser browserName=chrome,maxInstances=3
-
+                        a)``` Java  -Dwebdriver.chrome.driver=..\…\chromedriver.exe -jar selenium-server-standalone-3.3.1.jar 
+                        -role node -hub http://localhost:4444/grid/register 
+                        -port 7777 -browser browserName=chrome,maxInstances=3
+~~~
 ===========================================================
 
 # Proje2 #
